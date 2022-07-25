@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "git add . && git commit -m \"Automated message\" && git push",
     "stack": "ts-node ./datastructure/Stack.ts",
     "queue": "ts-node ./datastructure/Queue.ts",
     "lint":"eslint --fix ./**/*.ts",
