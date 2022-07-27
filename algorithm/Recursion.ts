@@ -9,7 +9,7 @@
 // 1 1 2 3 5 8 ...
 // Time complexity - O(2^n)
 /**
- * @params the number to search
+ * @params n number the number to search
  * @returns the index of the number in the algorithm
  */
 function fib(n: number): number {
@@ -23,8 +23,8 @@ function fib(n: number): number {
 console.log('fibonacci # -->',fib(3), '\n')
 
 /**
- * @param array 
- * @param index 
+ * @param array {any} 
+ * @param index {number} 
  */
 // Time Complexity O(N)
 function iterate(array: any[], index: number) {
