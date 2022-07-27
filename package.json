@@ -10,6 +10,7 @@
     "list": "ts-node ./datastructure/LinkedList.ts",
     "binary-search":"ts-node ./algorithm/BinarySearch.ts",
     "palindrome": "ts-node ./algorithm/Palindrome.ts",
+    "recursion": "ts-node ./algorithm/Recursion.ts",
     "lint": "eslint --fix ./**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

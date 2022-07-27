@@ -1,7 +1,7 @@
 /**
  * - A Stack is an ordered collection of items that follows the last in, first out principle.
- * - The addition of a new items or removal of existing items takes place at the same end.
- * - The end of the stack is know as the top and the top and the opposite is know as the base.
+ * - The addition of a new items or removal of existing items takes place at the end.
+ * - The end of the stack is know as the top and the opposite is know as the base.
  * - The newest elements are near the top, and the oldest elements are near the base
  * 
  */
