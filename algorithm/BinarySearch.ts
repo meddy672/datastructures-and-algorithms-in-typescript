@@ -5,6 +5,7 @@
  * - If the value of the search key is greater than the item in the middle, narrow the interval to the upper half.
  */
 
+// O(log n) Time complexity
 function binarySearch(array: any[], key: any): any {
     const sortedArray = array.sort((a:any, b: any) => a - b);
     let middleIdx = Math.floor(sortedArray.length / 2);
@@ -22,7 +23,6 @@ function binarySearch(array: any[], key: any): any {
         return binarySearch(arr, key);
     }
     else return false;
-    
 }
 
 const result = binarySearch([1,3, 45, 56, 13, 12, 88, 102, 100, 4], 56);

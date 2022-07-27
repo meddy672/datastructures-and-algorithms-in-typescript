@@ -6,6 +6,7 @@
  * @param word - string
  * @returns true if string is palindrome and false if not
  */
+// O(N) time complexity
 function isPalindrome (word: string): Boolean {
     let index = 0;
     let lastpos = 1;
