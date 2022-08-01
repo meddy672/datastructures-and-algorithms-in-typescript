@@ -15,6 +15,7 @@
     "tree": "ts-node ./datastructure/Tree.ts",
     "lint": "eslint --fix ./**/*.ts",
     "fizzbuzz":"ts-node ./challenges/fizzbuzz.ts",
+    "harmlessransomnote": "ts-node ./challenges/HarmlessRansomNote.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
