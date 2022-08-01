@@ -1,5 +1,5 @@
 /**
- * - Harmless Ransom Not is two parameters where one is note cut out from a magazine
+ * - Harmless Ransom Note has two parameters where one is a note cut out from a magazine
  * - The other parameter is represent the magazine text.
  * - If there is enough magazine context to form the note then return true else return false. 
  * - If a word appears twice in the note it must appear twice in the magazine.
