@@ -74,3 +74,6 @@ addArray([1,2,3,4,5,6,7,8,9]);
 
 ## Algorithms
 When we speak of algorithms, we are talking about how something works. The two main concepts of an algorithm are searching and sorting of a dataset.
+
+## Data Structures
+Data structures describes how a dataset is organized or arranged. When using JavaScript or TypeScript for frontend development, most of the data will be arranged with a map, object, or an array. However, because JavaScript can be used for backend development with Node.js and Deno it is still a good to have a solid understanding of the best approaches to organize your data.
