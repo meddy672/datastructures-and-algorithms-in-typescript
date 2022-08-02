@@ -42,3 +42,5 @@ const magazineText = 'puerto rico is a place of great wonder and excitement '+
  'best places i have ever visited';
 
 console.log(harmlessRansomNote(noteText, magazineText)); 
+
+
