@@ -9,7 +9,7 @@
  */
 function reverseWordSearch(word: string): string {
     if(isString(word)){
-        let reverseWord: string = '';
+        let reverseWord = '';
         for (let index = word.length-1; index >= 0; index--) {
             const char = word[index];
             reverseWord += char;

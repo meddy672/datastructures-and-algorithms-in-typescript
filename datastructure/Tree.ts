@@ -40,13 +40,13 @@ class Tree {
     }
 }
 
-let n1 = new TreeNode(32);
-let n2 = new TreeNode(19);
-let n3 = new TreeNode(7);
-let n4 = new TreeNode(87);
-let n5 = new TreeNode(1);
+const n1 = new TreeNode(32);
+const n2 = new TreeNode(19);
+const n3 = new TreeNode(7);
+const n4 = new TreeNode(87);
+const n5 = new TreeNode(1);
 
-let tree = new Tree();
+const tree = new Tree();
 
 tree.root = n1;
 n1.left = n2;

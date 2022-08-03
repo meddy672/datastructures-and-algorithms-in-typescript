@@ -4,7 +4,7 @@
  * - If the number is dvisible by three and 5 log out fizzbuzz instead of that number
  * - If the number is not divisble by 3 o 5 just log out the number
  */
-enum Remainder { ZERO = 0 };
+enum Remainder { ZERO = 0 }
 
 interface IFizzBuzz {
      num: number;
@@ -61,6 +61,6 @@ function fizzBuzz({ num, divisor1, divisor2, context }: IFizzBuzz): void {
  * @param {number} divisor2 - divisor to determine buzz
  * @returns {Boolean}
  */
-function isNotZero(divisor1: number, divisor2: number): Boolean {
+function isNotZero(divisor1: number, divisor2: number): boolean {
      return divisor1 !== 0 && divisor2 !== 0;
 }

@@ -3,7 +3,7 @@ class List {
     size: number;
 
     constructor() {
-        this.data = new Array();
+        this.data = [];
         this.size = 0;
     }
 
@@ -17,7 +17,7 @@ class List {
             return null;
         }
 
-        let removed = this.data[index];
+        const removed = this.data[index];
 
         this.data = this.data.filter((item) => item !== removed);
 
@@ -36,7 +36,7 @@ class List {
      * @deprecated - JavaScript array size is increased automatically
      */
     grow() {
-        let array = new Array(this.data.length * 2)
+        const array = new Array(this.data.length * 2)
 
         for (let index = 0; index < this.data.length; index++) {
             array[index] = this.data[index];

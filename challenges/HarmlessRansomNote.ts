@@ -10,7 +10,7 @@
  * @param noteText 
  * @param magazineText 
  */
-function harmlessRansomNote(noteText: string, magazineText: string): Boolean {
+function harmlessRansomNote(noteText: string, magazineText: string): boolean {
     const noteArray = noteText.split(' ');
     const magazineArray = magazineText.split(' ');
     let magazineContainsNote = true;

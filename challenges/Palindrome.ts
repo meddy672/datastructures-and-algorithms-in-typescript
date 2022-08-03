@@ -7,12 +7,12 @@
  * @returns true if string is palindrome and false if not
  */
 // O(N) time complexity
-function isPalindrome (word: string): Boolean {
+function isPalindrome (word: string): boolean {
     let index = 0;
     let lastpos = 1;
     while (index < word.length / 2) {
-        let c1 = word[index];
-        let c2 = word[word.length - lastpos];
+        const c1 = word[index];
+        const c2 = word[word.length - lastpos];
         if (c1.toLocaleLowerCase() !== c2.toLocaleLowerCase()) {
             return false;
         }

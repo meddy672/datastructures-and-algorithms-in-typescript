@@ -8,8 +8,8 @@
 // O(log n) Time complexity
 function binarySearch(array: any[], key: any): any {
     const sortedArray = array.sort((a:any, b: any) => a - b);
-    let middleIdx = Math.floor(sortedArray.length / 2);
-    let middleElem = sortedArray[middleIdx];
+    const middleIdx = Math.floor(sortedArray.length / 2);
+    const middleElem = sortedArray[middleIdx];
 
     if (middleElem === key) {
         return true;
