@@ -16,6 +16,7 @@
     "fizzbuzz":"ts-node ./challenges/Fizzbuzz.ts",
     "harmlessransomnote": "ts-node ./challenges/HarmlessRansomNote.ts",
     "reverseword": "ts-node ./challenges/ReverseWordSearch",
+    "twosum":"ts-node ./challenges/TwoSum.ts",
     "lint": "eslint --fix ./**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
