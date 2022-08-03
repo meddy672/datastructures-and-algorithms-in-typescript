@@ -74,7 +74,7 @@ addArray([1,2,3,4,5,6,7,8,9]);
 ```
 
 ## Algorithms
-When we speak of algorithms, we are talking about how something works. The two main concepts of an algorithm are searching and sorting of a dataset.
+When we speak of algorithms we are talking about how something works. The two main concepts of an algorithm are searching and sorting of a dataset.
 
 #### Binary Search
 ...
