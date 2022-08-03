@@ -1,4 +1,4 @@
-<span style="color: red;">!!Under Contruction!!</span>
+# <div style="color: #cb4154">Under Construction</div>
 # Data Structures, Algorithms, and Program Challenges In Typescript
 This repository serves up some common examples on how to implement some basic data structures, algorithms, and solve programming challenges that may be asked during an interview. 
 
