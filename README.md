@@ -1,4 +1,3 @@
- <div style="color: #cb4154">Under Construction</div>
 # Data Structures, Algorithms, and Program Challenges In Typescript
 This repository serves up some common examples on how to implement some basic data structures, algorithms, and solve programming challenges that may be asked during an interview. 
 
@@ -31,7 +30,7 @@ printArray([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15, ... ,100]);
 ```
 #### Example - Big O(log(n))
 ```typescript
-// Logorithmic time, cuts time in half
+// Logorithmic time, cuts search in half
 function binarySearch(array: number[], key: number): number {
     const sortedArray =  array.sort((prev, next) => prev - next)
     let low = 0;
