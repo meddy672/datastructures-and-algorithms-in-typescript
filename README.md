@@ -77,3 +77,6 @@ When we speak of algorithms, we are talking about how something works. The two m
 
 ## Data Structures
 Data structures describes how a dataset is organized or arranged. When using JavaScript or TypeScript for frontend development, most of the data will be arranged with a map, object, or an array. However, because JavaScript can be used for backend development with Node.js and Deno it is still a good to have a solid understanding of the best approaches to organize your data.
+
+## Programming Challenges
+To be a good programmer, you have to be a good problem solver. Programming challenges help visualize and comprehend problems that differ from day-to-day development.
