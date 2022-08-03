@@ -1,3 +1,4 @@
+# <span style="color: red">!!Under Contruction!!</span>
 # Data Structures, Algorithms, and Program Challenges In Typescript
 This repository serves up some common examples on how to implement some basic data structures, algorithms, and solve programming challenges that may be asked during an interview. 
 
@@ -75,8 +76,59 @@ addArray([1,2,3,4,5,6,7,8,9]);
 ## Algorithms
 When we speak of algorithms, we are talking about how something works. The two main concepts of an algorithm are searching and sorting of a dataset.
 
+#### Binary Search
+...
+
+#### Sequential Search
+...
+
+#### Quick Sort
+...
+
+#### Merge Sort
+...
+
+#### Recursion
+...
+
+
+
 ## Data Structures
 Data structures describes how a dataset is organized or arranged. When using JavaScript or TypeScript for frontend development, most of the data will be arranged with a map, object, or an array. However, because JavaScript can be used for backend development with Node.js and Deno it is still a good to have a solid understanding of the best approaches to organize your data.
 
+#### List
+...
+
+#### Linked List
+...
+
+#### Graphs
+...
+
+#### Queues
+...
+
+#### Stacks
+...
+
+#### Trees
+...
+
+#### Hash Maps
+...
+
 ## Programming Challenges
 To be a good programmer, you have to be a good problem solver. Programming challenges help visualize and comprehend problems that differ from day-to-day development.
+
+#### FizzBuzz
+...
+
+#### Harmless Ransom Note
+...
+
+#### Palindrome
+...
+
+#### Reverse Word Search
+...
+
