@@ -1,4 +1,4 @@
-# <div style="color: #cb4154">Under Construction</div>
+ <div style="color: #cb4154">Under Construction</div>
 # Data Structures, Algorithms, and Program Challenges In Typescript
 This repository serves up some common examples on how to implement some basic data structures, algorithms, and solve programming challenges that may be asked during an interview. 
 
@@ -131,4 +131,6 @@ To be a good programmer, you have to be a good problem solver. Programming chall
 
 #### Reverse Word Search
 ...
+
+<footer style="text-align: center; margin-top: 50px; font-weight: bold">Practice Practice Practice!<footer>
 
