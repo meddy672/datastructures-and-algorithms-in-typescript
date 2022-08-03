@@ -118,7 +118,7 @@ Data structures describes how a dataset is organized or arranged. When using Jav
 ...
 
 ## Programming Challenges
-To be a good programmer, you have to be a good problem solver. Programming challenges help visualize and comprehend problems that differ from day-to-day development.
+To be a good programmer you have to be a good problem solver. Programming challenges help visualize and comprehend problems that differ from day-to-day development.
 
 #### FizzBuzz
 ...
