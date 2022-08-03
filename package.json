@@ -14,8 +14,9 @@
     "recursion": "ts-node ./algorithm/Recursion.ts",
     "tree": "ts-node ./datastructure/Tree.ts",
     "lint": "eslint --fix ./**/*.ts",
-    "fizzbuzz":"ts-node ./challenges/fizzbuzz.ts",
+    "fizzbuzz":"ts-node ./challenges/Fizzbuzz.ts",
     "harmlessransomnote": "ts-node ./challenges/HarmlessRansomNote.ts",
+    "reverseword": "ts-node ./challenges/ReverseWordSearch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
