@@ -132,5 +132,3 @@ To be a good programmer, you have to be a good problem solver. Programming chall
 #### Reverse Word Search
 ...
 
-<footer style="text-align: center; margin-top: 50px; font-weight: bold">Practice Practice Practice!<footer>
-
