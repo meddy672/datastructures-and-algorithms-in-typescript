@@ -142,25 +142,35 @@ npm run recusion
 Data structures describes how a dataset is organized or arranged. When using JavaScript or TypeScript for frontend development, most of the data will be arranged with a map, object, or an array. However, because JavaScript can be used for backend development with Node.js and Deno it is still a good to have a solid understanding of the best approaches to organize your data.
 
 #### List
-...
+List are an abstract data type that represents a finite number of ordered values, where the same value may occur more than once. The List I have implemented here are not true list because arrays in JavaScript increase in size automatically.
+[Source Code](./datastructure/List.ts)
+```sh
+npm run list
+```
 
 #### Linked List
-...
-
+A Linked List is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes which together represent a sequence.
+[Source Code](./datastructure//LinkedList.ts)
+```sh
+npm run linkedlist
+```
 #### Graphs
 ...
 
 #### Queues
-...
+A Queue is a collection of items that follows the FIFO also know as the first come first served. The addition of new elements is at the tail and the removal is from the front.
+[Source Code](./datastructure/Queue.ts)
+```sh
+npm run queue
+```
 
 #### Stacks
-...
+A Stack is an ordered collection of items that follows the last in, first out principle. The addition of a new items or removal of existing items takes place at the end. The end of the stack is know as the top and the opposite is know as the base. The newest elements are near the top, and the oldest elements are near the base.
+[Source Code](./datastructure/Stack.ts)
 
 #### Trees
-...
+A Tree is a data structure that has a set of connected nodes. Each node in the tree can be connected to many children (depending on the type of tree), but must be connected to exactly one parent, except for the root node, which has no parent. [Source Code](./datastructure/Tree.ts)
 
-#### Hash Maps
-...
 
 ## Programming Challenges
 To be a good programmer you have to be a good problem solver. Programming challenges help visualize and comprehend problems that differ from day-to-day development.
