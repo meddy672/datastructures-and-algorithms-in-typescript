@@ -26,7 +26,7 @@ This repository serves up some common examples on how to implement some basic da
     3. [Palindrome](https://github.com/meddy672/datastructures-and-algoritms-api#palindrome)
     4. [Reverse Word Search](https://github.com/meddy672/datastructures-and-algoritms-api#reverse-word-search)
     5. [Two Sum](https://github.com/meddy672/datastructures-and-algoritms-api#two-sum)
-5. [Interview Questions]()
+5. [Interview Questions](https://github.com/meddy672/datastructures-and-algoritms-api#interview-questions)
 
 
 ## Big O Notation
