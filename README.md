@@ -34,14 +34,14 @@ Big O Notation allows us to estimate the worst case runtime of algorithm or how 
 
 #### Example - Big O(1)
 ```typescript
-function getBigO(inputArray: number[]): number {
+function getNumber(inputArray: number[]): number {
     let someNumber: number; // Constant time, never changes
     someNumber = inputArray[0]; // Constant time, never changes
     someNumber++; // Constant time, never changes
     return someNumber; // Constant time, never changes
 }
 
-getBigO([1,2,3,4,5,6]);
+getNumber([1,2,3,4,5,6]);
 ```
 
 #### Example - Big O(n)
