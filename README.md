@@ -1,6 +1,32 @@
 # Data Structures, Algorithms, and Program Challenges In Typescript
 This repository serves up some common examples on how to implement some basic data structures, algorithms, and solve programming challenges that may be asked during an interview. 
 
+## Table Of Contents
+1. [Big O Notation](https://github.com/meddy672/datastructures-and-algoritms-api#big-o-notation)
+    1. [Constant Time](https://github.com/meddy672/datastructures-and-algoritms-api#example---big-o1)
+    2. [Linear Time](https://github.com/meddy672/datastructures-and-algoritms-api#example---big-on)
+    3. [Logorithmic Time](https://github.com/meddy672/datastructures-and-algoritms-api#example---big-ologn)
+    4. [Exponential Time](https://github.com/meddy672/datastructures-and-algoritms-api#example---big-on2)
+2. [Algorithms](https://github.com/meddy672/datastructures-and-algoritms-api#algorithms)
+    1. [Binary Search](https://github.com/meddy672/datastructures-and-algoritms-api#binary-search)
+    2. [Sequential Search](https://github.com/meddy672/datastructures-and-algoritms-api#sequential-search)
+    3. [Quick Sort](https://github.com/meddy672/datastructures-and-algoritms-api#quick-sort)
+    4. [Merge Sort](https://github.com/meddy672/datastructures-and-algoritms-api#merge-sort)
+    5. [Recursion](https://github.com/meddy672/datastructures-and-algoritms-api#recursion)
+3. [Data Structures](https://github.com/meddy672/datastructures-and-algoritms-api#data-structures)
+    1. [List](https://github.com/meddy672/datastructures-and-algoritms-api#list)
+    2. [Linked List](https://github.com/meddy672/datastructures-and-algoritms-api#linked-list)
+    3. [Graphs](https://github.com/meddy672/datastructures-and-algoritms-api#graphs)
+    4. [Stacks](https://github.com/meddy672/datastructures-and-algoritms-api#stacks)
+    5. [Trees](https://github.com/meddy672/datastructures-and-algoritms-api#trees)
+    6. [Hash Maps](https://github.com/meddy672/datastructures-and-algoritms-api#hash-maps)
+4. [Prgramming Challenges](https://github.com/meddy672/datastructures-and-algoritms-api#programming-challenges)
+    1. [FizzBuzz](https://github.com/meddy672/datastructures-and-algoritms-api#fizzbuzz)
+    2. [Harmless Ransom Note](https://github.com/meddy672/datastructures-and-algoritms-api#harmless-ransom-note)
+    3. [Palindrome](https://github.com/meddy672/datastructures-and-algoritms-api#palindrome)
+    4. [Reverse Word Search](https://github.com/meddy672/datastructures-and-algoritms-api#reverse-word-search)
+    5. [Two Sum](https://github.com/meddy672/datastructures-and-algoritms-api#two-sum)
+
 
 ## Big O Notation
 Big O Notation allows us to estimate the worst case runtime of algorithm or how long it takes the algorithm to complete based on its input size. When you're trying to understand the Big O Notation of an algorithm, you want focus on the the amount of **Loops** that the algorithm uses to perform its job. The amount of loops that the algorithm uses inaccordance with the input size is what causes Big O(1), which is constant time, to go to Big O(n) or O(n^2). An algorithm that has Big O(n^2) uses to **for loops** to do its job.
