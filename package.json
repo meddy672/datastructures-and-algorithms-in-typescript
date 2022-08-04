@@ -11,6 +11,7 @@
     "linkedlist": "ts-node ./datastructure/LinkedList.ts",
     "binarysearch":"ts-node ./algorithm/BinarySearch.ts",
     "recursion": "ts-node ./algorithm/Recursion.ts",
+    "mergesort": "ts-node ./algorithm/MergeSort.ts",
     "tree": "ts-node ./datastructure/Tree.ts",
     "palindrome": "ts-node ./challenges/Palindrome.ts",
     "fizzbuzz":"ts-node ./challenges/Fizzbuzz.ts",
