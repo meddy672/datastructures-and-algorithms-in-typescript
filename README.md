@@ -26,7 +26,7 @@ This repository serves up some common examples on how to implement some basic da
     3. [Palindrome](https://github.com/meddy672/datastructures-and-algoritms-api#palindrome)
     4. [Reverse Word Search](https://github.com/meddy672/datastructures-and-algoritms-api#reverse-word-search)
     5. [Two Sum](https://github.com/meddy672/datastructures-and-algoritms-api#two-sum)
-5. [Design Patterns]()
+5. [Design Patterns](https://github.com/meddy672/datastructures-and-algoritms-api#design-patterns)
 6. [Interview Questions](https://github.com/meddy672/datastructures-and-algoritms-api#interview-questions)
 
 
