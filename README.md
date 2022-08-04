@@ -167,29 +167,47 @@ npm run queue
 #### Stacks
 A Stack is an ordered collection of items that follows the last in, first out principle. The addition of a new items or removal of existing items takes place at the end. The end of the stack is know as the top and the opposite is know as the base. The newest elements are near the top, and the oldest elements are near the base.
 [Source Code](./datastructure/Stack.ts)
+```sh
+npm run stack
+```
 
 #### Trees
 A Tree is a data structure that has a set of connected nodes. Each node in the tree can be connected to many children (depending on the type of tree), but must be connected to exactly one parent, except for the root node, which has no parent. [Source Code](./datastructure/Tree.ts)
+```sh
+npm run tree
+```
 
 
 ## Programming Challenges
 To be a good programmer you have to be a good problem solver. Programming challenges help visualize and comprehend problems that differ from day-to-day development.
 
 #### FizzBuzz
-...
+FizzBuzz is a challenge that just about every developer will encounter once in their career. FizzBuzz is a function that checks if a number is divisible by a specified divisor(s) and if so output the apporiate message. If not then the number should be outputted instead. [Source Code](./challenges/Fizzbuzz.ts)
+```sh
+npm run fizzbuzz
+```
 
 #### Harmless Ransom Note
-...
+The Harmless Ransom Note searches a text blob and sees if  the characters in the text blob are able to mkae up the note. If a string appears more than once in the note then it should appear more than once in the text blob. [Source Code](./challenges/HarmlessRansomNote.ts)
+```sh
+npm run harmlessransomnote
+```
 
 #### Palindrome
-...
+A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam or racecar. [Source Code](./challenges/Palindrome.ts)
 
 #### Reverse Word Search
-...
+Reverse word takes a string and reverses it's characters. [Source Code](./challenges/ReverseWordSearch.ts)
+```sh
+npm run reverseword
+```
 
 
 #### Two Sum
-...
+The Two Sum function searches an array and locates each number pair that sum up to the sum parameter. If the function finds a pair that equates to the sum it is added to an array and returned as a pair. [Source Code](./challenges/TwoSum.ts)
+```sh
+npm run twosum
+```
 
 ## Design Patterns
 
