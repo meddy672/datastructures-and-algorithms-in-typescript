@@ -1,5 +1,5 @@
 # Data Structures, Algorithms, and Program Challenges In Typescript
-This repository serves up some common examples on how to implement some basic data structures, algorithms, and solve programming challenges that may be asked during an interview. 
+This repository serves up some common examples on how to implement some basic data structures, algorithms, and solve programming challenges using Typescript. It's a great place to start if you need to prepare for a software developer interview and need to see some code examples. 
 
 ## Table Of Contents
 1. [Big O Notation](https://github.com/meddy672/datastructures-and-algoritms-api#big-o-notation)
@@ -26,6 +26,7 @@ This repository serves up some common examples on how to implement some basic da
     3. [Palindrome](https://github.com/meddy672/datastructures-and-algoritms-api#palindrome)
     4. [Reverse Word Search](https://github.com/meddy672/datastructures-and-algoritms-api#reverse-word-search)
     5. [Two Sum](https://github.com/meddy672/datastructures-and-algoritms-api#two-sum)
+5. [Interview Questions]()
 
 
 ## Big O Notation
@@ -160,3 +161,5 @@ To be a good programmer you have to be a good problem solver. Programming challe
 
 #### Two Sum
 ...
+
+## Interview Questions
