@@ -9,10 +9,9 @@ This repository serves up some common examples on how to implement some basic da
     4. [Exponential Time](https://github.com/meddy672/datastructures-and-algoritms-api#example---big-on2)
 2. [Algorithms](https://github.com/meddy672/datastructures-and-algoritms-api#algorithms)
     1. [Binary Search](https://github.com/meddy672/datastructures-and-algoritms-api#binary-search)
-    2. [Sequential Search](https://github.com/meddy672/datastructures-and-algoritms-api#sequential-search)
-    3. [Quick Sort](https://github.com/meddy672/datastructures-and-algoritms-api#quick-sort)
-    4. [Merge Sort](https://github.com/meddy672/datastructures-and-algoritms-api#merge-sort)
-    5. [Recursion](https://github.com/meddy672/datastructures-and-algoritms-api#recursion)
+    2. [Quick Sort](https://github.com/meddy672/datastructures-and-algoritms-api#quick-sort)
+    3. [Merge Sort](https://github.com/meddy672/datastructures-and-algoritms-api#merge-sort)
+    4. [Recursion](https://github.com/meddy672/datastructures-and-algoritms-api#recursion)
 3. [Data Structures](https://github.com/meddy672/datastructures-and-algoritms-api#data-structures)
     1. [List](https://github.com/meddy672/datastructures-and-algoritms-api#list)
     2. [Linked List](https://github.com/meddy672/datastructures-and-algoritms-api#linked-list)
@@ -104,19 +103,38 @@ addArray([1,2,3,4,5,6,7,8,9]);
 When we speak of algorithms we are talking about how something works. The two main concepts of an algorithm are searching and sorting of a dataset.
 
 #### Binary Search
-...
-
-#### Sequential Search
-...
+A Binary Search is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target value, and repeating this until the target value is found.
+ 1. Average Time Complexity - O(log(n))
+ 2. [Source Code](./algorithm/BinarySearch.ts)
+ ```sh
+npm run binarysearch
+ ```
 
 #### Quick Sort
-...
+Quick Sort is a divide-and-conquer algorithm. It works by selecting a **pivot** element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.
+ 1. Average Time Complexity - O(n log(n))
+ 2. [Source Code](./algorithm/QuickSort.ts)
+ ```sh
+npm run quicksort
+ ```
 
-#### Merge Sort
-...
+#### Merge Sort 
+ Merge sort is a divide-and-conquer algorithm. It takes two unsorted arrays and combines them into sorted one array. Merge Sort will compare the each element in both arrays and compare their values and add them to a single array inorder.
+ Merge Sort has a time complexity of O(log n) because it divides the arrary into smaller units then compares each element with the adjacent array to compare and merge.
+
+ 1. Average Time Complexity - O(n log(n))
+ 2. [Source Code](./algorithm/MergeSort.ts)
+ ```sh
+npm run mergesort
+ ```
 
 #### Recursion
-...
+Recursion is where a function being defined is applied within its own definition. Basically the function calls itself until a base condition is met. A good example of recursion would be fibonacci sequence.
+
+1. [Source Code](./algorithm/Recursion.ts)
+```sh
+npm run recusion
+``` 
 
 
 
