@@ -30,9 +30,8 @@ fizzBuzz({
 
 
 /**
- * 
+ * @description outputs the results of the configuration
  * @param {IFizzBuzz} -  Object for configuring fizzBuzz function
- * @returns 
  */
 function fizzBuzz({ num, divisor1, divisor2, context }: IFizzBuzz): void {
      if (isNotZero(divisor1, divisor2)) {
