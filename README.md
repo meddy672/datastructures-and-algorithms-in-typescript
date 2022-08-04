@@ -57,7 +57,6 @@ printArray([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15, ... ,100]);
 ```
 #### Example - Big O(log(n))
 ```typescript
-// Logorithmic time, cuts search in half
 function binarySearch(array: number[], key: number): number {
     const sortedArray =  array.sort((prev, next) => prev - next)
     let low = 0;
@@ -66,6 +65,7 @@ function binarySearch(array: number[], key: number): number {
     let element;
 
     while (low <= high) {
+        // Logorithmic time, cuts search in half
         mid = Math.floor((low + high) / 2);
         element = sortedArray[mid];
         if (element < key) {
